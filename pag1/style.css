@@ -30,19 +30,19 @@ a {
 
 input {
   border: none;
-  width:85%;
-  height: 40px;
+  width:100%;
   background: #f2f2f2;
 	outline: inherit;
   outline-color: blue;
   padding-top: 0;
-  font-size: 26px;
+  font-size: 200%;
   font-family: 'segoeui',monospace;
 	}
 
 button {
   text-align: center;
  	display: left;
+  object-fit: fill;
 }
 
 /********************* Classes ************************************************/
@@ -56,18 +56,18 @@ button {
   display: inline;
 }
 
+.cabeca a{
+  font-size: 120%;
+  margin: 1.25% 1.25% 1.25% 1.25%;
+}
+
 /** Geral**/
-  .container {
+.container {
   border: none;
-
   box-sizing: border-box;
-
   display: block;
-
   margin: none;
-
   object-fit: contain;
-
   padding: none;
   position: relative;
 }
@@ -77,8 +77,6 @@ button {
   font-family: 'segoeui',monospace;
   min-height: 820px;
   min-width: 720px;
-  height: ;
-  width:;
   background-image: url("../img/ballpen.png");
   background-size: cover;
   background-position: center top;
@@ -90,15 +88,22 @@ button {
 .bottom-left{
   font-family: 'segoeui',monospace;
   position:absolute;
-  bottom:20%;
+  bottom:30%;
   left: 5%;
 }
 
+.bottom-left h1{
+  font-size: 500%
+}
+
+.bottom-left h4{
+  font-size: 200%
+}
+
 .btn2{
-  font-family: 'segoeuib',monospace;
-  font-size: 16px;
-  height: 40px;
-  width: 120px;
+  font-family: 'segoeuil',monospace;
+  font-size: 300%;
+  width: 40%;
   border:none;
   background-color: #04AFEB;
   color: #FFFFFF;
@@ -112,11 +117,31 @@ button {
   color:grey;
 }
 
+.resume h4{
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 150%;
+}
+
 /** Target **/
 .targets {
   font-family: 'segoeui', monospace;
   background-color: #FFFFFF;
   color: #FFFFFF;
+  text-align: center;
+}
+
+.targets h4{
+  font-size: 200%;
+}
+
+.targets a{
+  font-size: 300%;
+  text-align: center;
+}
+
+.targets h4{
+  font-size: 200%;
 }
 
 .targets img{
@@ -129,20 +154,39 @@ button {
   padding-right: 1%;
 }
 
-.targets table, td, tr {
+.targets table {
   border: solid white;
   border-width: thick;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  -webkit-border-horizontal-spacing: 40px;
+  -webkit-border-vertical-spacing: 20px;
 }
 
-.targets th, td {
+.targets td {
   padding: 10px;
+  text-align: left;
 }
+
 
 /** Services **/
 
 .columnsrv{
   text-align: center;
   padding: 3%;
+}
+
+.columnsrv td tr{
+  text-align: center;
+  align:center;
+  align-items: center;
+  align-content: center;
+}
+
+.columnsrv table{
+  align:center;
+  align-items: center;
+  align-content: center;
 }
 
 .btn3{
@@ -157,49 +201,56 @@ button {
 .comments{
   font-family: "segoeuil",monospace;
   display: contents;
-  border: solid gray;
-  border-width: thick;
+  border: solid lightgray;
+  border-width: medium;
 }
 
 .comments td{
-  border: solid gray;
+  border: solid lightgray;
   border-width: thick;
+}
+
+.comments h2{
+  font-size: 250%;
+}
+
+.comments h4{
+  font-size: 150%;
 }
 
 /** Workwithus **/
 .wwus{
+  min-height: 200px;
   font-family: 'segoeui',monospace;
-  min-height: 376px;
-  min-width: 720px;
-  background-image: url("../img/achievement.png");
-  background-color: #000000;
-  background-position: center;
+  color: #FFFFFF;
+  background-color: transparent;
   background-repeat: no-repeat;
-  object-fit: fill;
-  filter:brightness(50%);
-}
-.wwuscenter{
-  font-family: 'segoeui',monospace;
-  font-size: 26px;
-  position:absolute;
-  bottom:20%;
-  left: 25%;
+  background-image: url("../img/achievementdark.png");
+  background-position: center;
+  background-size: cover;
   text-align: center;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-size: 200%;
 }
 
 /** Faleconosco **/
 .fcnsc{
   display: block;
-  padding-left: 5%;
-  background-color: lightblue;
-  width: 50%;
+  background-color: lightgray;
   left: 25%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
 }
 
 .fcnsc h4{
   color:gray;
+  font-size: 150%;
   padding-bottom: 0;
-  border: none;
+  margin-bottom: 0;
+  margin-top: 5%;
 }
 
 .fcnsc button{
@@ -208,9 +259,8 @@ button {
   color:#FFFFFF;
   background-color: blue;
   border: none;
-  font-size: 26px;
-  width: 85%;
-  height: 40px;
+  font-size: 200%;
+  width: 100%;
 }
 /** Sobrenos **/
 
