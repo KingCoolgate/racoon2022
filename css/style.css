@@ -124,70 +124,9 @@ button {
 }
 
 /** Target **/
-.targets {
-  font-family: 'segoeui', monospace;
-  background-color: #FFFFFF;
-  color: #FFFFFF;
-  text-align: center;
-}
-
-.targets h4{
-  font-size: 200%;
-}
-
-.targets a{
-  font-size: 300%;
-  text-align: center;
-}
-
-.targets h4{
-  font-size: 200%;
-}
-
-.targets img{
-  position: relative;
-  float: left;
-  height: 64px;
-  width: 64px;
-  padding-top: 5%;
-  padding-left: 2%;
-  padding-right: 1%;
-}
-
-.targets table {
-  border: solid white;
-  border-width: thick;
-  margin-left: 7.5%;
-  margin-right: 7.5%;
-  -webkit-border-horizontal-spacing: 40px;
-  -webkit-border-vertical-spacing: 20px;
-}
-
-.targets td {
-  padding: 10px;
-  text-align: left;
-}
 
 
 /** Services **/
-
-.columnsrv{
-  text-align: center;
-  padding: 3%;
-}
-
-.columnsrv td tr{
-  text-align: center;
-  align:center;
-  align-items: center;
-  align-content: center;
-}
-
-.columnsrv table{
-  align:center;
-  align-items: center;
-  align-content: center;
-}
 
 .btn3{
   font-family: 'segoeuib',monospace;
@@ -203,11 +142,6 @@ button {
   display: contents;
   border: solid lightgray;
   border-width: medium;
-}
-
-.comments td{
-  border: solid lightgray;
-  border-width: thick;
 }
 
 .comments h2{
